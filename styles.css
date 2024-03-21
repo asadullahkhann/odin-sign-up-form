@@ -63,6 +63,8 @@ form {
     display: flex;
     align-items: flex-end;
     padding: 0 0 13px 32px;
+    position: relative;
+    z-index: 2;
 }
 
 .italic {
@@ -70,7 +72,10 @@ form {
 }
 
 .form-input-area {
+    padding-top: 16px;
     padding-left: 32px;
+    position: relative;
+    box-shadow: rgb(0 0 0 /.2) 0 2px 5px 5px;
 }
 
 p.phrase-row {
@@ -116,6 +121,7 @@ input.error:valid {
 .form-submit-area {
     background-color: #f9fafb;
     height: 300px;
+    padding-top: 16px;
     padding-left: 32px;
 }
 
