@@ -68,3 +68,47 @@ form {
 .italic {
     font-style: italic;
 }
+
+.form-input-area {
+    padding-left: 32px;
+}
+
+p.phrase-row {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+input {
+    width: 200px;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1.8px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border: 1.8px solid blue;
+    box-shadow: 1px 1px 4px;
+}
+
+input.error {
+    border: 1.8px solid red;
+}
+
+input.error:valid {
+    border: 1.8px solid blue;
+}
