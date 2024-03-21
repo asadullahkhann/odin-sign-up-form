@@ -40,7 +40,7 @@ body {
 
 .sidebar-logo-text {
     font-family: norsebold;
-    font-size: 58px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ form {
 
 p.phrase-row {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 10px 0;
 }
 
@@ -101,14 +101,49 @@ input {
 
 input:focus {
     outline: none;
-    border: 1.8px solid blue;
+    border: 1.8px solid #00f;
     box-shadow: 1px 1px 4px;
 }
 
 input.error {
-    border: 1.8px solid red;
+    border: 1.8px solid #f00;
 }
 
 input.error:valid {
-    border: 1.8px solid blue;
+    border: 1.8px solid #00f;
+}
+
+.form-submit-area {
+    background-color: #f9fafb;
+    height: 300px;
+    padding-left: 32px;
+}
+
+.form-submit-area p:first-child {
+    margin-bottom: 24px;   
+}
+
+.form-submit-area button {
+    padding: 10px 40px;
+    background-color: #596D48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-submit-area button:hover {
+    cursor: pointer;
+}
+
+.form-submit-area button:active {
+    background-color: rgb(89 109 72 / .5);
+}
+
+.form-submit-area a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
 }
