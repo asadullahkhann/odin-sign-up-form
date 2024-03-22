@@ -153,7 +153,7 @@ input.error:valid {
 }
 
 .pwd-output {
-    display: block;
+    display: none;
     font-size: 0.8rem;
     color: #f00;
 }
